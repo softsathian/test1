@@ -5,10 +5,10 @@
 <clobbers target="cordova.plugins.Test1" />
 </js-module><platform name="android">
 <config-file parent="/*" target="res/xml/config.xml">
-<feature name="Test1"><param name="android-package" value="cordova-plugin-Test1.Test1" /></feature>
+<feature name="Test1"><param name="android-package" value="cordova.plugin.Test1.Test1" /></feature>
 </config-file>
 <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-<source-file src="src/android/Test1.java" target-dir="src/cordova-plugin-Test1/Test1" />
+<source-file src="src/android/Test1.java" target-dir="src/cordova/plugin/Test1/Test1" />
  <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
   
      
