@@ -6,7 +6,7 @@ import org.apache.cordova.CallbackContext;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import com.example.helloworldlib;
+import com.example.*;
 
 /**
  * This class echoes a string called from JavaScript.
