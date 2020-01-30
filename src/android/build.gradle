@@ -18,7 +18,7 @@ allprojects {
 dependencies {
     compile 'com.android.support:support-v4:+'
     implementation(name:'helloworldlib', ext:'aar')
-
+    implementation(name:'com.example.helloworldlib:helloworldlib@aar')
 }
 
 android {
